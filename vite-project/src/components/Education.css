@@ -1,0 +1,94 @@
+.education {
+  background-color: var(--white);
+}
+
+.education-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  transition: var(--transition);
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.education-icon {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-content h3 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.education-content h4 {
+  font-size: 1.2rem;
+  color: var(--secondary);
+  margin-bottom: 0.5rem;
+}
+
+.education-period {
+  font-size: 1rem;
+  color: var(--dark-gray);
+  margin-bottom: 0.5rem;
+}
+
+.education-location {
+  font-size: 1rem;
+  color: var(--dark-gray);
+  margin-bottom: 1.5rem;
+}
+
+.education-courses h4 {
+  font-size: 1.1rem;
+  color: var(--text);
+  margin-bottom: 0.8rem;
+}
+
+.courses-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.courses-list li {
+  color: var(--dark-gray);
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .courses-list {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+}
+
