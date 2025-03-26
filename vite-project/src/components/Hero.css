@@ -194,6 +194,7 @@
 
 .scroll-text {
   font-size: 0.8rem;
+  margin-left: -22px;
   color: var(--primary);
   font-weight: 500;
 }
