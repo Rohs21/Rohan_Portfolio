@@ -1,5 +1,5 @@
 "use client";
-
+import "./Skills.css";
 import React, { useState } from "react";
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, 
@@ -142,11 +142,4 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-
-
-
-
-
 
