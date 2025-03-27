@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, 
   FaDatabase, FaGitAlt, FaGithub, FaNpm, FaCode, 
-  FaLaptopCode
+  FaLaptopCode, FaNetworkWired, FaUserFriends, FaCogs
 } from "react-icons/fa";
 import {
   SiCplusplus, SiTypescript, SiTailwindcss, SiExpress, 
@@ -55,14 +55,25 @@ const technicalSkills = [
 ];
 
 const otherSkills = [
-  { name: "Data Structures", icon: FaCode },
-  { name: "Algorithms", icon: FaCode },
-  { name: "Object Oriented Programming", icon: FaLaptopCode },
-  { name: "Database Management", icon: FaDatabase },
-  { name: "Software Engineering", icon: FaCode },
-  { name: "Problem Solving", icon: FaCode },
-  { name: "Team Collaboration", icon: FaCode },
-  { name: "Communication", icon: FaCode },
+  {
+    category: "Soft Skills",
+    skills: [
+      { name: "Problem Solving", icon: FaCode, color: "#4A90E2" },
+      { name: "Team Collaboration", icon: FaUserFriends, color: "#2ECC71" },
+      { name: "Communication", icon: FaNetworkWired, color: "#9B59B6" },
+      { name: "Adaptability", icon: FaCogs, color: "#F39C12" },
+    ]
+  },
+  {
+    category: "Professional Skills",
+    skills: [
+      { name: "Software Engineering", icon: FaLaptopCode, color: "#3498DB" },
+      { name: "Object Oriented Programming", icon: FaCode, color: "#E74C3C" },
+      { name: "Database Management", icon: FaDatabase, color: "#1ABC9C" },
+      { name: " Data Structure and Algorithm", icon: FaCogs, color: "#34495E" },
+    ]
+  }
+  
 ];
 
 const Skills = () => {
