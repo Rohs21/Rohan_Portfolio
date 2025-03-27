@@ -1,7 +1,9 @@
 "use client"
 
 import { useEffect, useRef } from "react"
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaEnvelope, FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
+
 import "./Hero.css"
 import rohanImg from '../images/Rohan_portfolio_img.png';
 
@@ -66,13 +68,7 @@ const Hero = () => {
           </div>
 
           <div className="social-links">
-            <a href="mailto:rohans212004@gmail.com" className="social-icon" aria-label="Email">
-              <FaEnvelope />
-            </a>
-            <a href="tel:+917843032325" className="social-icon" aria-label="Phone">
-              <FaPhone />
-            </a>
-            <a
+          <a
               href="https://www.linkedin.com/in/rohan-singh-8872322b8/"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,6 +76,9 @@ const Hero = () => {
               aria-label="LinkedIn"
             >
               <FaLinkedin />
+            </a>
+            <a href="https://leetcode.com/u/Rohan_s21/" className="social-icon" aria-label="LeetCode">
+              <SiLeetcode />
             </a>
             <a
               href="https://github.com/Rohs21"
@@ -89,6 +88,18 @@ const Hero = () => {
               aria-label="GitHub"
             >
               <FaGithub />
+            </a>
+            <a
+              href="https://x.com/Skull278458"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+              aria-label="GitHub"
+            >
+              <FaXTwitter />
+            </a>
+            <a href="mailto:rohans212004@gmail.com" className="social-icon" aria-label="Email">
+              <FaEnvelope />
             </a>
           </div>
         </div>

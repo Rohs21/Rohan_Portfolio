@@ -15,7 +15,7 @@ const Education = () => {
           <div className="education-content">
             <h3>Bachelor of Engineering (Computer Engineering)</h3>
             <h4>Zeal College of Engineering and Research, Pune</h4>
-            <p className="education-period">August 2022 - May 2026</p>
+            <p className="education-period">August 2022 - May 2026 (Persuing)</p>
             <p className="education-location">Narhe, Pune</p>
 
             <div className="education-courses">

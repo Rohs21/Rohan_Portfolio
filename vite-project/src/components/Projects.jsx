@@ -3,6 +3,9 @@
 import { useState } from "react"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 import "./Projects.css"
+import tripallyImg from '../images/tripally.png';
+import BooksImg from '../images/books-app.png';
+
 
 const Projects = () => {
   const [hoveredProject, setHoveredProject] = useState(null)
@@ -13,10 +16,10 @@ const Projects = () => {
       title: "Trip-Ally",
       description:
         "A secure and efficient trip booking platform with JWT authentication and password hashing for robust data protection.",
-      image: "https://placehold.co/600x400",
+      image: tripallyImg,
       techStack: ["Node.js", "Express.js", "React.js", "MongoDB Atlas", "Tailwind CSS"],
       liveLink: "https://trip-ally.vercel.app",
-      githubLink: "https://github.com/rohan-singh/trip-ally",
+      githubLink: "https://github.com/Rohs21/Trip-Ally",
       features: [
         "Developed a secure and efficient trip booking platform using React for a seamless user experience",
         "Integrated JWT authentication and password hashing for robust data protection",
@@ -29,10 +32,10 @@ const Projects = () => {
       title: "BOOKS-HUB",
       description:
         "An interactive React-based Book Hub web app featuring book search and trending titles with effective state management.",
-      image: "https://placehold.co/600x400",
+      image: BooksImg,
       techStack: ["React.js", "HTML", "CSS", "JavaScript", "API", "Git"],
-      liveLink: "https://books-hub.vercel.app",
-      githubLink: "https://github.com/rohan-singh/books-hub",
+      liveLink: "https://github.com/Rohs21/Books-app",
+      githubLink: "https://github.com/Rohs21/Books-app",
       features: [
         "Built an interactive React-based Book Hub web app featuring book search and trending titles",
         "Implemented effective state management and utilized Git for version control",

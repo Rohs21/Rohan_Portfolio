@@ -1,4 +1,5 @@
 import "./About.css"
+import rohanImg from '../images/Rohan_portfolio_img.png';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-image">
             <div className="image-frame">
-              <img src="https://placehold.co/400x500" alt="Rohan Singh" />
+              <img src={rohanImg} alt="Rohan Singh" />
             </div>
           </div>
 
