@@ -4,14 +4,13 @@ import React, { useState } from "react";
 import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, 
   FaDatabase, FaGitAlt, FaGithub, FaNpm, FaCode, 
-  FaLaptopCode, FaBrain, FaUserFriends, FaComments, FaChalkboardTeacher
+  FaLaptopCode
 } from "react-icons/fa";
 import {
   SiCplusplus, SiTypescript, SiTailwindcss, SiExpress, 
   SiRedux, SiRecoil, SiPostgresql, SiMongodb, 
   SiPostman
 } from "react-icons/si";
-import { MdAlgorithm, MdEngineering } from "react-icons/md";
 
 const technicalSkills = [
   {
@@ -56,24 +55,14 @@ const technicalSkills = [
 ];
 
 const otherSkills = [
-  { 
-    category: "Soft Skills", 
-    skills: [
-      { name: "Problem Solving", icon: FaBrain, color: "#2C3E50" },
-      { name: "Team Collaboration", icon: FaUserFriends, color: "#27AE60" },
-      { name: "Communication", icon: FaComments, color: "#3498DB" },
-      { name: "Presentation", icon: FaChalkboardTeacher, color: "#8E44AD" },
-    ]
-  },
-  { 
-    category: "Methodologies", 
-    skills: [
-      { name: "Data Structures", icon: FaCode, color: "#34495E" },
-      { name: "Algorithms", icon: MdAlgorithm, color: "#E67E22" },
-      { name: "OOP", icon: FaLaptopCode, color: "#16A085" },
-      { name: "Software Engineering", icon: MdEngineering, color: "#2980B9" },
-    ]
-  }
+  { name: "Data Structures", icon: FaCode },
+  { name: "Algorithms", icon: FaCode },
+  { name: "Object Oriented Programming", icon: FaLaptopCode },
+  { name: "Database Management", icon: FaDatabase },
+  { name: "Software Engineering", icon: FaCode },
+  { name: "Problem Solving", icon: FaCode },
+  { name: "Team Collaboration", icon: FaCode },
+  { name: "Communication", icon: FaCode },
 ];
 
 const Skills = () => {
@@ -83,9 +72,9 @@ const Skills = () => {
     <div className="skills-grid">
       {skills.map((category, catIndex) => (
         <div key={catIndex} className="skill-category">
-          <h3 className="category-title">{category.category}</h3>
+          <h3 className="category-title">{category.category || "Skills"}</h3>
           <div className="skills-list">
-            {category.skills.map((skill, skillIndex) => {
+            {(category.skills || skills).map((skill, skillIndex) => {
               const SkillIcon = skill.icon;
               return (
                 <div key={skillIndex} className="skill-card">
