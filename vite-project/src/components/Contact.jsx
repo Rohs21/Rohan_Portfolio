@@ -90,7 +90,7 @@ const Contact = () => {
 
             <div className="social-links">
               <a
-                href="https://www.linkedin.com/in/rohan-singh"
+                href="https://www.linkedin.com/in/rohan-singh-8872322b8/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -98,7 +98,7 @@ const Contact = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/rohan-singh"
+                href="https://github.com/Rohs21"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
