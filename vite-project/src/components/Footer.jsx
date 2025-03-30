@@ -56,10 +56,10 @@ const Footer = () => {
           <div className="footer-social">
             <h4>Follow Me</h4>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/rohan-singh" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/rohan-singh-8872322b8/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="https://github.com/rohan-singh" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Rohs21" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
             </div>
