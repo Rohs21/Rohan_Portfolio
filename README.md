@@ -5,11 +5,6 @@ Welcome to my portfolio! 🚀
 ## 🔗 Live Link
 [rohans21.vercel.app](https://rohans21.vercel.app)
 
-## 🛠️ Tech Stack
-- HTML, CSS, JavaScript
-- React, Vite
-- MongoDB, Express, Node.js
-
 ## 📌 About Me
 I'm a passionate **Full Stack Developer** & **DSA** Enthusiast who loves building interactive and scalable web applications.
 
