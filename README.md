@@ -10,5 +10,5 @@ I'm a passionate **Full Stack Developer** & **DSA** Enthusiast who loves buildin
 
 ## 📬 Contact
 - **Email:** rohans212004@example.com
-- **LinkedIn:** [linkedin.com/in/rohansingh]([https://linkedin.com/in/](https://www.linkedin.com/in/rohan-singh-8872322b8/))
-- **GitHub:** [github.com/rohans21](https://github.com/Rohs21)
+- **LinkedIn:** [linkedin.com/in/rohan-singh-8872322b8/]([https://linkedin.com/in/](https://www.linkedin.com/in/rohan-singh-8872322b8/))
+- **GitHub:** [github.com/rohs21](https://github.com/Rohs21)
