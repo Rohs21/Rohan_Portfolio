@@ -59,8 +59,8 @@ const Hero = () => {
           <p>Passionate about building innovative web solutions and solving complex problems</p>
 
           <div className="hero-buttons">
-            <a href="#contact" className="btn">
-              Contact Me
+            <a href="https://drive.google.com/file/d/1xSehp2aTZ7tuT3w-lANk9OUpQ1k6kpyK/view" className="btn">
+              My Resume
             </a>
             <a href="#projects" className="btn btn-outline">
               View Projects
