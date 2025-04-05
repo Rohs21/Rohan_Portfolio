@@ -62,7 +62,7 @@ const Navbar = ({ scrolled }) => {
             </a>
           </li>
           <li>
-            <a href="#skills" className={activeSection === "skills" ? "active" : ""} onClick={closeMenu}>
+            <a href="#Skills" className={activeSection === "skills" ? "active" : ""} onClick={closeMenu}>
               Skills
             </a>
           </li>
