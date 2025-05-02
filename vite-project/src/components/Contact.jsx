@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa"
+import {  FaXTwitter } from "react-icons/fa6";
 import "./Contact.css"
 
 const Contact = () => {
@@ -105,7 +106,19 @@ const Contact = () => {
               >
                 <FaGithub />
               </a>
-            </div>
+          <a
+            href="https://x.com/Skull278458"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link"
+            aria-label="GitHub"
+          >
+            <FaXTwitter />
+          </a>
+          <a href="mailto:rohans212004@gmail.com" className="social-link" aria-label="Email">
+            <FaEnvelope />
+          </a>
+        </div>
           </div>
 
           <div className="contact-form">
