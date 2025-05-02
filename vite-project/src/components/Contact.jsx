@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub } from "react-icons/fa"
 import {  FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import "./Contact.css"
 
 const Contact = () => {
@@ -115,8 +116,8 @@ const Contact = () => {
           >
             <FaXTwitter />
           </a>
-          <a href="mailto:rohans212004@gmail.com" className="social-link" aria-label="Email">
-            <FaEnvelope />
+          <a href="https://leetcode.com/u/Rohan_s21/" className="social-link" aria-label="LeetCode">
+            <SiLeetcode />
           </a>
         </div>
           </div>
