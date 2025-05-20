@@ -9,7 +9,7 @@ const Experience = () => {
       company: "Akash Dayal Groups",
       period: "December 2024 - March 2025",
       responsibilities: [
-        "Developed and optimized 8+ responsive, user-friendly pages with reusable components, ensuring seamless performance across devices.",
+        "Developed and optimized 15+ responsive, user-friendly pages with reusable components, ensuring seamless performance across devices.",
         "Conducted thorough testing and debugging to enhance page functionality, accessibility, and cross-browser compatibility.",
         "Collaborated on UI/UX improvements, refining layouts and design consistency to elevate user engagement and overall experience.",
       ],
